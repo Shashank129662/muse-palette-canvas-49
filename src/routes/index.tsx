@@ -7,9 +7,9 @@ import {
 } from "lucide-react";
 import { useState } from "react";
 import { BrandMark } from "@/components/BrandMark";
-import heroVisual from "@/assets/sections/hero_section.png.asset.json";
+import heroVisual from "@/assets/sections/offersbox-hero-latest.png.asset.json";
 import bestDeals from "@/assets/sections/best_deals_section.png.asset.json";
-import giftBox from "@/assets/sections/offersbox-giftbox-reference-hq.png.asset.json";
+import ctaGift from "@/assets/sections/offersbox-cta-latest.png.asset.json";
 import categoryCallout from "@/assets/sections/category-callout.png.asset.json";
 import stepArrow from "@/assets/sections/curved-dashed-arrow-hq.png.asset.json";
 import newGiftBox from "@/assets/sections/offersbox-new-giftbox.png.asset.json";
@@ -200,7 +200,7 @@ function Index() {
       <section className="cta-band">
         <div className="page-shell cta-grid">
           <div><h2>Ready to Start Saving?</h2><p>Join thousands of smart shoppers who trust OffersBox for the best deals, every day.</p><a className="button button--warm" href="#deals">Explore Offers <ArrowRight /></a></div>
-          <div className="cta-gift"><img src={giftBox.url} alt="A gift box full of offers" /></div>
+          <div className="cta-gift"><img src={ctaGift.url} alt="A gift box with a discount tag and savings message" /></div>
         </div>
       </section>
 
