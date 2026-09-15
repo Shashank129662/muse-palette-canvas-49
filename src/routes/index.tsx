@@ -10,6 +10,9 @@ import { BrandMark } from "@/components/BrandMark";
 import heroVisual from "@/assets/sections/hero_section.png.asset.json";
 import bestDeals from "@/assets/sections/best_deals_section.png.asset.json";
 import giftBox from "@/assets/sections/offersbox-giftbox-reference-hq.png.asset.json";
+import categoryCallout from "@/assets/sections/category-callout.png.asset.json";
+import stepArrow from "@/assets/sections/curved-dashed-arrow-hq.png.asset.json";
+import newGiftBox from "@/assets/sections/offersbox-new-giftbox.png.asset.json";
 import myntra from "@/assets/brands/myntra.png.asset.json";
 import flipkart from "@/assets/brands/flipkart.png.asset.json";
 import zomato from "@/assets/brands/zomato.png.asset.json";
@@ -121,6 +124,7 @@ function Index() {
       </section>
 
       <section id="categories" className="section page-shell categories-section">
+        <img className="category-callout" src={categoryCallout.url} alt="Something for everyone" />
         <span className="eyebrow">Explore more, spend less</span>
         <h2>Deals for<br /><span>Every Part</span> of Your Life</h2>
         <p className="section-lead">From fashion to food, travel to tech — find the best offers<br className="desktop-only" /> across categories, only on OffersBox.</p>
@@ -140,7 +144,9 @@ function Index() {
             <p className="section-lead">Finding and using the best offers has never been easier.</p>
             <div className="steps">
               <div><span><Search /></span><h3>1. Search</h3><p>Find offers from your favourite brands</p></div>
+              <img className="step-arrow step-arrow--one" src={stepArrow.url} alt="" aria-hidden="true" />
               <div><span><Camera /></span><h3>2. Choose</h3><p>Pick the best deal that suits you</p></div>
+              <img className="step-arrow step-arrow--two" src={stepArrow.url} alt="" aria-hidden="true" />
               <div><span><Gift /></span><h3>3. Save</h3><p>Use the offer and enjoy great savings</p></div>
             </div>
           </div>
@@ -177,7 +183,7 @@ function Index() {
               <div><Gift /><p><strong>Save More</strong><small>Get the best value, always</small></p></div>
             </div>
           </div>
-          <div className="gift-art"><img src={giftBox.url} alt="OffersBox filled with savings from top brands" /></div>
+          <div className="gift-art"><img src={newGiftBox.url} alt="OffersBox filled with savings from top brands" /></div>
         </div>
       </section>
 
