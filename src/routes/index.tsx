@@ -188,7 +188,7 @@ function Index() {
       </section>
 
       <section className="section testimonials">
-        <span className="eyebrow">Loved by smart shoppers</span>
+        <span className="eyebrow eyebrow--pop">Loved by smart shoppers</span>
         <h2>Real People. <span>Real Savings.</span></h2>
         <div className="testimonial-grid page-shell">
           {testimonials.map((item) => <article className="testimonial-card" key={item.name}>
