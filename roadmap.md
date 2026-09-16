@@ -6,3 +6,4 @@
 - [x] Add matching hover effect to "Trusted by 500K+ smart shoppers" eyebrow
 - [x] Add same hover effect to "Loved by smart shoppers" eyebrow
 - [ ] Fix step-arrow placement between Search, Choose, Save
+- [ ] Fix How It Works image overlapping / misplaced into Today's Highlights
