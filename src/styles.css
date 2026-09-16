@@ -185,6 +185,8 @@
 @utility hero-copy { position: relative; z-index: 2; padding: 32px 0 38px; }
 @utility eyebrow { display: inline-flex; padding: 7px 15px; color: var(--primary); background: var(--muted); border-radius: 999px; font-size: 10px; line-height: 1; font-weight: 600; letter-spacing: .04em; text-transform: uppercase; }
 @utility eyebrow--hero { color: color-mix(in oklab, var(--hero-foreground) 92%, transparent); background: color-mix(in oklab, var(--primary) 50%, transparent); }
+.eyebrow--pop { cursor: default; transition: transform .2s ease, box-shadow .2s ease, background-color .2s ease; }
+.eyebrow--pop:hover { transform: translateY(-2px); box-shadow: 0 6px 18px color-mix(in oklab, var(--primary) 18%, transparent); background: color-mix(in oklab, var(--muted) 92%, white 8%); }
 @utility hero-actions { display: flex; gap: 14px; margin-top: 30px; }
 @utility hero-art { width: 780px; margin-left: auto; margin-right: -112px; align-self: end; position: relative; filter: drop-shadow(0 0 18px color-mix(in oklab, var(--primary) 36%, transparent)); }
 @utility trust-points { display: grid; grid-template-columns: repeat(3, 1fr); gap: 22px; margin-top: 40px; }
