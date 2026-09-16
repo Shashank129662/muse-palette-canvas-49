@@ -7,9 +7,9 @@ import {
 } from "lucide-react";
 import { useState } from "react";
 import { BrandMark } from "@/components/BrandMark";
-import heroVisual from "@/assets/sections/offersbox-hero-latest.png.asset.json";
+import heroVisual from "@/assets/sections/offersbox-hero-v2.png.asset.json";
 import bestDeals from "@/assets/sections/best_deals_section.png.asset.json";
-import ctaGift from "@/assets/sections/offersbox-cta-latest.png.asset.json";
+import ctaGift from "@/assets/sections/offersbox-cta-v2.png.asset.json";
 import categoryCallout from "@/assets/sections/category-callout.png.asset.json";
 import stepArrow from "@/assets/sections/curved-dashed-arrow-hq.png.asset.json";
 import newGiftBox from "@/assets/sections/offersbox-new-giftbox.png.asset.json";
