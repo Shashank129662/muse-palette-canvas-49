@@ -115,7 +115,7 @@ function Index() {
       </section>
 
       <section className="brand-strip" aria-label="Featured brands">
-        <span className="eyebrow">Trusted by 500K+ smart shoppers</span>
+        <span className="eyebrow eyebrow--pop">Trusted by 500K+ smart shoppers</span>
         <div className="brand-row page-shell">
           {brands.map((brand) => <div className="brand-tile" key={brand.name}>
             {brand.image ? <img src={brand.image} alt={brand.name} /> : <strong>{brand.text}</strong>}
