@@ -245,7 +245,7 @@ h2 { margin-top: 9px; font-size: clamp(30px, 3vw, 44px); line-height: 1.16; font
 .category-item span, .steps span { width: 68px; height: 68px; display: grid; place-items: center; color: var(--primary); background: var(--soft-blue); border-radius: 50%; }
 .category-item svg { width: 30px; height: 30px; }.category-item strong { min-height: 32px; }
 .deal-art img { width: 100%; height: 100%; object-fit: contain; }
-.steps > div { position: relative; z-index: 3; flex: 1 1 0; min-width: 0; }
+.steps > div { position: relative; z-index: 3; flex: 1 1 0; min-width: 0; text-align: center; }
 .steps span { width: 58px; height: 58px; color: var(--hero-foreground); background: var(--primary); box-shadow: 0 8px 20px color-mix(in oklab, var(--primary) 24%, transparent); }
 .steps h3 { margin-top: 13px; font-size: 15px; font-weight: 700; }.steps p { max-width: 145px; margin-top: 6px; color: var(--muted-foreground); font-size: 11px; line-height: 1.45; }
 .deal-logo img { max-width: 88px; max-height: 22px; object-fit: contain; }.deal-logo strong { font-size: 17px; }
