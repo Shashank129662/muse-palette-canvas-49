@@ -7,9 +7,9 @@ import {
 } from "lucide-react";
 import { useState } from "react";
 import { BrandMark } from "@/components/BrandMark";
-import heroVisual from "@/assets/sections/offersbox-hero-latest.png.asset.json";
+import heroVisual from "@/assets/sections/offersbox-hero-v2.png.asset.json";
 import bestDeals from "@/assets/sections/best_deals_section.png.asset.json";
-import ctaGift from "@/assets/sections/offersbox-cta-latest.png.asset.json";
+import ctaGift from "@/assets/sections/offersbox-cta-v2.png.asset.json";
 import categoryCallout from "@/assets/sections/category-callout.png.asset.json";
 import stepArrow from "@/assets/sections/curved-dashed-arrow-hq.png.asset.json";
 import newGiftBox from "@/assets/sections/offersbox-new-giftbox.png.asset.json";
@@ -115,7 +115,7 @@ function Index() {
       </section>
 
       <section className="brand-strip" aria-label="Featured brands">
-        <span className="eyebrow">Trusted by 500K+ smart shoppers</span>
+        <span className="eyebrow eyebrow--pop">Trusted by 500K+ smart shoppers</span>
         <div className="brand-row page-shell">
           {brands.map((brand) => <div className="brand-tile" key={brand.name}>
             {brand.image ? <img src={brand.image} alt={brand.name} /> : <strong>{brand.text}</strong>}
@@ -188,7 +188,7 @@ function Index() {
       </section>
 
       <section className="section testimonials">
-        <span className="eyebrow">Loved by smart shoppers</span>
+        <span className="eyebrow eyebrow--pop">Loved by smart shoppers</span>
         <h2>Real People. <span>Real Savings.</span></h2>
         <div className="testimonial-grid page-shell">
           {testimonials.map((item) => <article className="testimonial-card" key={item.name}>
